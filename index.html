@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to Kokoa Talk</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>11%</span>
+                <i class="fa-solid fa-battery-quarter"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
+            <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number.</p>
+        </header>
+        <form id="login-form" action="friend.html" method="get">
+            <input name="username" type="text" placeholder="Email or phone number" />
+            <input type="password" placeholder="Password" />
+            <input name="password" type="submit" value="Log In" />
+            <a href="#">Find Kakao Account or Password</a>
+        </form>
+        <script src="https://kit.fontawesome.com/4438e2a14e.js" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
