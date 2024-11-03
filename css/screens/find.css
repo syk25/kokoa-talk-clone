@@ -92,3 +92,23 @@
     width: 60px;
     height: 20px;
 }
+
+@keyframes heartBeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: tomato;
+        transform: scale(2);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
+.chat__image__rating:hover i {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+}
